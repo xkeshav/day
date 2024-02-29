@@ -1,4 +1,4 @@
-// mod.ts
+// index.ts
 /**
  * A module return number of milliseconds in a day
  *

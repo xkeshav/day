@@ -1,6 +1,6 @@
 # Day - @xkeshav/day - A JSR package
 
-This is a minimal sample package for new package ecosystem  JavaScript Registry (JSR)  by Deno, it works both i9n javascript and typescript.
+This is a minimal sample package for new package ecosystem JavaScript Registry (JSR) by Deno, it works both i9n javascript and typescript.
 
 access to JSr is limited and based on invite.
 
@@ -12,24 +12,26 @@ this package have one property `oneDay` which return total number of millisseocn
 
 > npx jsr i @xkeshav/day
 
-
 above command will add entry in your **package.json** file as below
 
 ```json
  "dependencies": {
-    "@xkeshav/day": "npm:@jsr/xkeshav__day@^1.1.0"
+    "@xkeshav/day": "npm:@jsr/xkeshav__day@^1.1.1"
   }
 ```
+
 ## How to use
 
 ```js
 import { oneDay } from "@xkeshav/day";
 
-// named export 
-console.log({oneDay});
-
+// named export
+console.log({ oneDay });
 ```
 
+## Screenshot of package
+
+![package detail](assets/images/package.png)
 
 ## References
 

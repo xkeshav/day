@@ -1,9 +1,9 @@
 {
   "name": "@xkeshav/day",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "exports": "./index.ts",
   "imports": {
-    "@xkeshav/day": "jsr:@xkeshav/day@1.1.0"
+    "@xkeshav/day": "jsr:@xkeshav/day@1.1.1"
   },
   "tasks": {
     "dev": "deno run --watch index.ts"
