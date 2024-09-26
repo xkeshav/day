@@ -6,6 +6,7 @@
     "@xkeshav/day": "jsr:@xkeshav/day@1.1.1"
   },
   "tasks": {
-    "dev": "deno run --watch index.ts"
+    "dev": "deno run --watch index.ts",
+    "server": "deno run -A server.ts"
   }
 }
